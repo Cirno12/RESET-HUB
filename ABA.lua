@@ -7,7 +7,7 @@ local serv = win:Server("ABA", "ABA")
 
 serv:Channel("Mainf)
 
-local drop = drops:Dropdown("Characters",{"Luffy [Pre-Timeskip]","Sanji [Pre-Timeskip]","Ace","Zoro [Timeskip]","Sanji [Timeskip]","GOD Usopp","Akainu","Kizaru","Usopp","Enel","Whitebeard","Shanks","Zoro [Pre-Timeskip]","Trafalgar Law","Luffy [Timeskip]","Crocodile","Sasuke","Rock Lee","Kakashi","Neji","Zabuza","Gaara","Sasuke [Shippuden]","Itachi","Might Guy","Nagato","Pain","Tenten","Minato [4th Hokage]","Edo Madara","Naruto [Shippuden]","Naruto","Rukia","Byakuya","Shinji","Shunsui","Grimmjow","Gin","Ichigo [Hollow Mask]","Toshiro","Ulquiorra","Coyote Starrk","Aizen","Yoruichi","Ulquiorra2","Kisuke","Yamamoto","Ichigo","Deku","Todoroki","Bakugou","All Might","Option 5","Option 5","Option 5","Option 5","Option 5","Option 5","Option 5","Option 5","Option 5","Option 5"}, function(bool)
+local drop = drops:Dropdown("Characters",{"Luffy [Pre-Timeskip]","Sanji [Pre-Timeskip]","Ace","Zoro [Timeskip]","Sanji [Timeskip]","GOD Usopp","Akainu","Kizaru","Usopp","Enel","Whitebeard","Shanks","Zoro [Pre-Timeskip]","Trafalgar Law","Luffy [Timeskip]","Crocodile","Sasuke","Rock Lee","Kakashi","Neji","Zabuza","Gaara","Sasuke [Shippuden]","Itachi","Might Guy","Nagato","Pain","Tenten","Minato [4th Hokage]","Edo Madara","Naruto [Shippuden]","Naruto","Rukia","Byakuya","Shinji","Shunsui","Grimmjow","Gin","Ichigo [Hollow Mask]","Toshiro","Ulquiorra","Coyote Starrk","Aizen","Yoruichi","Ulquiorra2","Kisuke","Yamamoto","Ichigo","Deku","Todoroki","Bakugou","All Might"}, function(bool)
 
    win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
    local AnimeCharacter = (bool)
