@@ -25,4 +25,5 @@ local drop = drops:Dropdown("Characters",{"Luffy [Pre-Timeskip]","Sanji [Pre-Tim
    Player.Backpack.ServerTraits.Input:FireServer("charclose")
 end)
 
-serv:Channel("by dawid#7205")
+
+win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
