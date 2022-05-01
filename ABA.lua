@@ -1,9 +1,11 @@
 
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 
-local win = DiscordLib:Window("discord library")
+local win = DiscordLib:Window("SnowHub")
 
 local serv = win:Server("Preview", "ABA")
+
+serv:Channel("Main")
 
 local drop = drops:Dropdown("Characters",{"Luffy [Pre-Timeskip]","Sanji [Pre-Timeskip]","Ace","Zoro [Timeskip]","Sanji [Timeskip]","GOD Usopp","Akainu","Kizaru","Usopp","Enel","Whitebeard","Shanks","Zoro [Pre-Timeskip]","Trafalgar Law","Luffy [Timeskip]","Crocodile","Sasuke","Rock Lee","Kakashi","Neji","Zabuza","Gaara","Sasuke [Shippuden]","Itachi","Might Guy","Nagato","Pain","Tenten","Minato [4th Hokage]","Edo Madara","Naruto [Shippuden]","Naruto","Rukia","Byakuya","Shinji","Shunsui","Grimmjow","Gin","Ichigo [Hollow Mask]","Toshiro","Ulquiorra","Coyote Starrk","Aizen","Yoruichi","Ulquiorra2","Kisuke","Yamamoto","Ichigo","Deku","Todoroki","Bakugou","All Might","Option 5","Option 5","Option 5","Option 5","Option 5","Option 5","Option 5","Option 5","Option 5","Option 5"}, function(bool)
 
