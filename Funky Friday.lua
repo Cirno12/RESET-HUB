@@ -2,7 +2,9 @@ local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/daw
 
 local win = DiscordLib:Window("SnowHub❅")
 
-local serv = win:Server("Preview", "Main")
+local serv = win:Server("Preview", "Funky Friday")
+
+serv:Channel("Main")
 
 local tgls = serv:Channel("Toggles")
 
@@ -55,7 +57,7 @@ tgls:Toggle("Points Farm",false, function(bool)
         end(bool)
 end)
 
-local serv = win:Server("Preview", "Misc")
+serv:Channel("Misc")
 
 local btns = serv:Channel("Buttons")
 
