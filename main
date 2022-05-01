@@ -1,15 +1,1 @@
-
-local URL = "https://raw.githubusercontent.com/Cirno12/RESET-HUB/main"
-
-local games = {
-    [286090429] = "Stand Upright Rebooted",
-    [1782832995] = "ABA",
-}
-
-for i,v in next, games do
-    games[i] = table.concat(v:split(' '), '_')
-end
-
-local name = games[game.PlaceId] or games[game.GameId]
-
-return loadstring(game:HttpGet(URL .. "/" .. (name or "Universal") .. ".lua", true))()
+WOAH THERE IS NOTHING HERE
