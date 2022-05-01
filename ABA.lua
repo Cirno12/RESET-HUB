@@ -1,9 +1,9 @@
 
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 
-local win = DiscordLib:Window("SnowHub❅")
+local win = DiscordLib:Window("SnowHub")
 
-local serv = win:Server("Preview", "ABA")
+local serv = win:Server("ABA", "ABA")
 
 serv:Channel("Main")
 
