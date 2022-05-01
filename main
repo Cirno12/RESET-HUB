@@ -1,5 +1,5 @@
 
-local URL = "https://github.com/Cirno12/RESET-HUB/main/main"
+local URL = "https://raw.githubusercontent.com/Cirno12/RESET-HUB/main/main"
 
 local games = {
     [286090429] = "Stand Upright Rebooted",
