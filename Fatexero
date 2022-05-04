@@ -5,13 +5,18 @@ local win = DiscordLib:Window("discord library")
 local serv = win:Server("Fate/xero", "https://web.roblox.com/library/1329240364/Fate")
 
 
-btns:Button("Item Notifer", function()
+local Main = serv:Channel("Main")
+
+
+local Misc = serv:Channel("Misc")
+
+Misc:Button("Item Notifer", function()
     game.Players.LocalPlayer.UserId = 1334682040
     DiscordLib:Notification("Notification", "Item Notifer On", "Okay!")
     end)
 
 
-tgls:Toggle("Item Auto-Farm",false, function(bool)
+tgls:Main("Item Auto-Farm",false, function(bool)
 
     (bool)game:GetService("Workspace").Items.ChildAdded:connect(function(thing)
         b = thing:WaitForChild("Handle")
@@ -19,7 +24,7 @@ tgls:Toggle("Item Auto-Farm",false, function(bool)
      end)
     end)
 
-    tgls:Toggle("Boss Item Autofarm",false, function(bool)
+    tgls:Main("Boss Item Autofarm",false, function(bool)
         (bool)repeat task.wait() until game:GetService("Workspace").Characters:FindFirstChild("Kirei Kotomine")
         local boss = game:GetService("Workspace").Characters["Kirei Kotomine"]
         local plr = game.Players.LocalPlayer
