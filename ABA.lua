@@ -3,13 +3,14 @@ local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/daw
 
 local win = DiscordLib:Window("SnowHub")
 
-local serv = win:Server("ABA", "ABA")
+local serv = win:Server("ABA", "")
 
-serv:Channel("Mainf)
+
+local drops = serv:Channel("Main")
+
 
 local drop = drops:Dropdown("Characters",{"Luffy [Pre-Timeskip]","Sanji [Pre-Timeskip]","Ace","Zoro [Timeskip]","Sanji [Timeskip]","GOD Usopp","Akainu","Kizaru","Usopp","Enel","Whitebeard","Shanks","Zoro [Pre-Timeskip]","Trafalgar Law","Luffy [Timeskip]","Crocodile","Sasuke","Rock Lee","Kakashi","Neji","Zabuza","Gaara","Sasuke [Shippuden]","Itachi","Might Guy","Nagato","Pain","Tenten","Minato [4th Hokage]","Edo Madara","Naruto [Shippuden]","Naruto","Rukia","Byakuya","Shinji","Shunsui","Grimmjow","Gin","Ichigo [Hollow Mask]","Toshiro","Ulquiorra","Coyote Starrk","Aizen","Yoruichi","Ulquiorra2","Kisuke","Yamamoto","Ichigo","Deku","Todoroki","Bakugou","All Might"}, function(bool)
 
-   win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
    local AnimeCharacter = (bool)
    
    --//⚠️DO NOT TOUCH ANYTHING BELOW THIS LINE UNLESS U KNOW WHAT U ARE DOING⚠️\\
